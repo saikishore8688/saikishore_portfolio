@@ -3696,3 +3696,42 @@ height:auto;
 
 
 }
+
+
+@media(max-width:768px){
+
+
+#home{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+.hero-right{
+
+    order:1;
+
+}
+
+
+.hero-left{
+
+    order:2;
+
+}
+
+
+.hero-stats{
+
+    order:3;
+
+    width:100%;
+
+}
+
+
+
+}        
