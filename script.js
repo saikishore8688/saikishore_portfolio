@@ -178,7 +178,7 @@ counters.forEach(counter => {
 });
 
 
-requestAnimationFrame(raf);
+
 
 // ==========================
 // AOS INIT
@@ -200,7 +200,7 @@ AOS.init({
 
 const sections=document.querySelectorAll("section");
 
-const navLinks=document.querySelectorAll(".nav-link");
+const navLinks=document.querySelectorAll(".nav-links a");
 
 
 window.addEventListener("scroll",()=>{
@@ -281,7 +281,7 @@ behavior:"smooth"
 
 };
 
-};
+
 
 window.addEventListener("load",()=>{
 
@@ -311,7 +311,7 @@ AOS.init({
 // ==========================
 
 const menuBtn = document.querySelector(".menu-btn");
-const mobileNavLinks = document.querySelector(".nav-links a");
+const mobileNavLinks = document.querySelector(".nav-links ");
 
 
 if(menuBtn){
