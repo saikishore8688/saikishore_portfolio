@@ -81,16 +81,24 @@ document.addEventListener("DOMContentLoaded",type);
 //      MOUSE GLOW EFFECT
 //=================================
 
+document.addEventListener("DOMContentLoaded",()=>{
+
 const cursorGlow = document.querySelector(".cursor-glow");
 
+document.addEventListener("mousemove",(e)=>{
 
-document.addEventListener("mousemove", (e)=>{
+    if(cursorGlow){
 
-    cursorGlow.style.left = e.clientX + "px";
+        cursorGlow.style.left = e.clientX + "px";
+        cursorGlow.style.top = e.clientY + "px";
 
-    cursorGlow.style.top = e.clientY + "px";
+    }
 
 });
+
+});
+
+
 
 // SCROLL REVEAL
 
@@ -301,7 +309,7 @@ document.querySelector(".loader")
 // ==========================
 
 const menuBtn = document.querySelector(".menu-btn");
-const mobileNavLinks = document.querySelector(".nav-links ");
+const mobileNavLinks = document.querySelector(".nav-links");
 
 
 if(menuBtn){
