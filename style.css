@@ -3348,3 +3348,224 @@ pointer-events:none;
 transition:.8s;
 
 }
+
+/*======================================
+        MOBILE RESPONSIVE
+======================================*/
+
+
+@media(max-width:768px){
+
+
+    section{
+
+        padding:80px 5%;
+
+    }
+
+
+    /* HERO */
+
+    #home{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+
+    .hero-left{
+
+        width:100%;
+
+        order:2;
+
+    }
+
+
+    .hero-right{
+
+        width:100%;
+
+        order:1;
+
+        margin-bottom:40px;
+
+    }
+
+
+    .profile-ring{
+
+        width:220px;
+
+        height:220px;
+
+        margin:auto;
+
+    }
+
+
+    .hero-title{
+
+        font-size:42px;
+
+    }
+
+
+    .hero-role{
+
+        font-size:22px;
+
+    }
+
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+
+    .hero-buttons a{
+
+        width:100%;
+
+    }
+
+
+
+    /* STATS */
+
+
+    .hero-stats{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:15px;
+
+    }
+
+
+    .stat-card h3{
+
+        font-size:28px;
+
+    }
+
+
+
+    /* EXPERIENCE */
+
+
+    .experience-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .experience-card{
+
+        width:100%;
+
+    }
+
+
+
+    /* EDUCATION */
+
+
+    .education-wrapper{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .education-details{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+
+    /* SKILLS */
+
+
+    .skills-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+
+    /* PROJECT */
+
+
+    .project-card{
+
+        flex-direction:column;
+
+    }
+
+
+
+    /* CONTACT */
+
+
+    .contact-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+}
+
+@media(max-width:400px){
+
+
+.hero-title{
+
+font-size:34px;
+
+}
+
+
+.profile-ring{
+
+width:180px;
+
+height:180px;
+
+}
+
+
+.hero-description{
+
+font-size:14px;
+
+}
+
+
+.stat-card{
+
+padding:15px;
+
+}
+
+
+}
+
+img{
+
+max-width:100%;
+
+height:auto;
+
+}
