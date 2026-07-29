@@ -3572,19 +3572,43 @@ height:auto;
 
 @media(max-width:768px){
 
-    .hero-right{
-        order:1;
-    }
+
+#home{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
 
 
-    .hero-left{
-        order:2;
-    }
+.hero-right{
+
+    order:1;
+
+}
 
 
-    .hero-stats{
-        order:3;
-    }
+.hero-left{
+
+    order:2;
+
+}
+
+
+.hero-stats{
+
+    order:3;
+
+}
+
+
+.profile-ring img{
+
+    width:250px;
+
+}
+
 
 }
 
