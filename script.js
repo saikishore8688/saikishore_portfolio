@@ -324,6 +324,18 @@ const navLinks = document.querySelector(".nav-links");
 
 menuBtn.addEventListener("click",()=>{
 
+
+    const menuBtn = document.querySelector(".menu-btn");
+
+const navLinks = document.querySelector(".nav-links");
+
+
+menuBtn.onclick = () => {
+
+    navLinks.classList.toggle("active");
+
+};
+
     navLinks.classList.toggle("active");
 
 });
