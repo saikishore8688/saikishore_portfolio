@@ -292,19 +292,9 @@ document.querySelector(".loader")
 
 });
 
-// ============================
-// SCROLL REVEAL
-// ============================
 
-AOS.init({
 
-    duration:1000,
 
-    once:true,
-
-    offset:120
-
-});
 
 // ==========================
 // MOBILE NAVBAR
