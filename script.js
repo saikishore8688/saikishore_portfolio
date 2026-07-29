@@ -281,15 +281,6 @@ behavior:"smooth"
 
 };
 
-const hamburger=document.querySelector(".hamburger");
-
-const nav=document.querySelector(".nav-menu");
-
-
-hamburger.onclick=()=>{
-
-nav.classList.toggle("open");
-
 };
 
 window.addEventListener("load",()=>{
@@ -315,28 +306,20 @@ AOS.init({
 
 });
 
+// ==========================
 // MOBILE NAVBAR
+// ==========================
 
 const menuBtn = document.querySelector(".menu-btn");
-
-const navLinks = document.querySelector(".nav-links");
-
-
-menuBtn.addEventListener("click",()=>{
+const mobileNavLinks = document.querySelector(".nav-links a");
 
 
-    const menuBtn = document.querySelector(".menu-btn");
+if(menuBtn){
 
-const navLinks = document.querySelector(".nav-links");
+    menuBtn.addEventListener("click",()=>{
 
+        mobileNavLinks.classList.toggle("active");
 
-menuBtn.onclick = () => {
+    });
 
-    navLinks.classList.toggle("active");
-
-};
-
-    navLinks.classList.toggle("active");
-
-});
-
+}
