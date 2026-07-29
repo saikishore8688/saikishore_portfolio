@@ -14,7 +14,7 @@ const roles = [
 
     "Automation Engineer",
      
-    "Pcb design Engineer",
+    "PCB Design Engineer",
     
     "Software Engineer",
 
