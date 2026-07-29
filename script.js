@@ -318,6 +318,18 @@ if(menuBtn){
 
         mobileNavLinks.classList.toggle("active");
 
+
+
+        document.querySelectorAll(".nav-links a").forEach(link=>{
+
+link.onclick=()=>{
+
+mobileNavLinks.classList.remove("active");
+
+}
+
+});
+
     });
 
 }
