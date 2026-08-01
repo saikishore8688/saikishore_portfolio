@@ -1764,6 +1764,22 @@ from{
 ==================================*/
 
 
+.bar span{
+
+    width:0;
+
+    transition:2s ease;
+
+}
+
+
+.skill-card.active .bar span{
+
+    width:var(--skill-width);
+
+}
+
+
 /*======================================
         PROJECT HEADER
 ======================================*/
